@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "_id": "2ezrjke52",
+      "name": "Test User",
+      "email": "test@test.com",
+      "password": "$2a$10$5egrL4CoXvpXfDtR66PoEOWN8.vRD6cpnxPXQRqHErutvnUAB0lOG",
+      "createdAt": "2026-06-22T07:49:05.752Z"
+    },
+    {
+      "_id": "u8gopvftm",
+      "name": "umesh",
+      "email": "dunnaumesh2006@gmail.com",
+      "password": "$2a$10$PHnVl.41ewDdOnsTUzCfY.EWtYhClNyltb5wBiBZSLMmP6TeeCsaC",
+      "createdAt": "2026-06-22T08:02:13.536Z",
+      "defaultPriority": "Medium",
+      "emailAlerts": true,
+      "dueReminders": true,
+      "avatar": "/avatars/avatar3.png"
+    },
+    {
+      "_id": "c4wa6y3nj",
+      "name": "Tester Updated",
+      "email": "tester@example.com",
+      "password": "$2a$10$j1TlvUJWON5v1.SafhQDnOd1Om1kXTjKoYIe1ogI2pPn4M1Usu2nW",
+      "avatar": "/avatars/avatar3.png",
+      "defaultPriority": "Medium",
+      "emailAlerts": true,
+      "dueReminders": true,
+      "createdAt": "2026-06-22T09:55:03.513Z"
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "513l87xpc",
+      "title": "Empolyee management System",
+      "description": "specs",
+      "status": "Pending",
+      "priority": "High",
+      "dueDate": "2028-03-01T00:00:00.000Z",
+      "userId": "u8gopvftm",
+      "createdAt": "2026-06-22T08:44:36.403Z",
+      "updatedAt": "2026-06-22T09:35:45.767Z"
+    },
+    {
+      "_id": "t8my11j6b",
+      "title": "empolee",
+      "description": "h4tohf4bigpvq3",
+      "status": "Completed",
+      "priority": "Medium",
+      "dueDate": "2029-09-09T00:00:00.000Z",
+      "userId": "u8gopvftm",
+      "createdAt": "2026-06-22T09:36:47.409Z",
+      "updatedAt": "2026-06-22T10:10:54.705Z"
+    }
+  ],
+  "activities": [
+    {
+      "_id": "p3ny823li",
+      "action": "Status Changed",
+      "details": "Task \"empolee\" status changed from \"Pending\" to \"In Progress\"",
+      "taskId": "t8my11j6b",
+      "userId": "u8gopvftm",
+      "createdAt": "2026-06-22T10:10:52.391Z"
+    },
+    {
+      "_id": "6nx407khx",
+      "action": "Status Changed",
+      "details": "Task \"empolee\" status changed from \"In Progress\" to \"Completed\"",
+      "taskId": "t8my11j6b",
+      "userId": "u8gopvftm",
+      "createdAt": "2026-06-22T10:10:54.715Z"
+    }
+  ]
+}
