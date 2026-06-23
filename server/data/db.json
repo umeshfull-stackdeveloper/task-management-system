@@ -4,7 +4,7 @@
       "_id": "2ezrjke52",
       "name": "Test User",
       "email": "test@test.com",
-      "password": "$2a$10$5egrL4CoXvpXfDtR66PoEOWN8.vRD6cpnxPXQRqHErutvnUAB0lOG",
+      "password": "$2a$10$MbR799xEVxMGLayAgo/Pdevh0uUDHXdpJn3Yh9CUodMlvrQZv2T2q",
       "createdAt": "2026-06-22T07:49:05.752Z"
     },
     {
@@ -28,6 +28,39 @@
       "emailAlerts": true,
       "dueReminders": true,
       "createdAt": "2026-06-22T09:55:03.513Z"
+    },
+    {
+      "_id": "cvil2lq0d",
+      "name": "Test User",
+      "email": "test@gmail.com",
+      "password": "$2a$10$Idf60av7FDLY2p6OZH3hJuUl4ejeArNj04PrzkGpWYHMrE7UdOWFe",
+      "avatar": "/avatars/avatar1.png",
+      "defaultPriority": "Medium",
+      "emailAlerts": true,
+      "dueReminders": true,
+      "createdAt": "2026-06-22T14:47:54.836Z"
+    },
+    {
+      "_id": "sa80yerx2",
+      "name": "umesh",
+      "email": "dunnaumesh2005@gmail.com",
+      "password": "$2a$10$uV4qtCu8iSsfg0xw3E541OmCj9wWbDzxrPIzYN79LA048tH4WVvhW",
+      "avatar": "/avatars/avatar1.png",
+      "defaultPriority": "Medium",
+      "emailAlerts": true,
+      "dueReminders": true,
+      "createdAt": "2026-06-23T11:47:52.347Z"
+    },
+    {
+      "_id": "uj0db7smj",
+      "name": "Umesh Test",
+      "email": "umeshtest@gmail.com",
+      "password": "$2a$10$qie8f5gEv40jhU4H5wzMEudmcEbvUeyoSMw.Qq3qSyelISoVLJl6e",
+      "avatar": "/avatars/avatar1.png",
+      "defaultPriority": "Medium",
+      "emailAlerts": true,
+      "dueReminders": true,
+      "createdAt": "2026-06-23T11:54:40.053Z"
     }
   ],
   "tasks": [
