@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://task-management-system-production-1b7b.up.railway.app/api';
 
 import axios from 'axios';
 
