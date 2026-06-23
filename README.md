@@ -1,6 +1,39 @@
 # TaskFlow - Task Management System
+![MERN](https://img.shields.io/badge/MERN-Stack-blue)
+![React](https://img.shields.io/badge/React-Vite-blue)
+![Node](https://img.shields.io/badge/Node.js-Express-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen)
 
 TaskFlow is a production-ready, full-stack MERN (MongoDB, Express, React, Node) application modeled after modern agile boards like Trello and Asana. It provides user authentication, statistics cards, and an interactive Kanban board for task CRUD and lifecycle movements, complete with advanced query filters and responsive light/dark themes.
+
+## ✨ Key Highlights
+
+- 🧠 Trello-like Kanban board experience
+- 📊 Dashboard with task statistics cards
+- 🎯 Advanced filtering (status, priority, search, sorting)
+- 🌙 Light/Dark mode support
+- 🔐 Secure JWT authentication system
+- ⚡ Fully responsive UI (mobile + desktop)
+
+## 🌐 Live Demo
+
+👉 Frontend: https://task-management-system-umesh1.vercel.app/  
+👉 Backend: task-management-system-production-1b7b.up.railway.app
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+<img width="1924" height="1084" alt="Screenshot 2026-06-23 230325" src="https://github.com/user-attachments/assets/53f59634-eefb-43bf-bd1f-d1a4cecc664e" />
+
+
+### Kanban Board
+<img width="1924" height="1084" alt="Screenshot 2026-06-23 230434" src="https://github.com/user-attachments/assets/ca2719a7-d5ed-4c3d-b57e-c28666355c9a" />
+
+
+### Login Page
+<img width="1924" height="1084" alt="Screenshot 2026-06-23 230456" src="https://github.com/user-attachments/assets/e164aabf-d214-4498-8c37-a4d66bb31b0c" />
 
 ---
 
@@ -11,6 +44,11 @@ TaskFlow is a production-ready, full-stack MERN (MongoDB, Express, React, Node) 
 - **Database**: MongoDB with Mongoose Schemas.
 
 ---
+
+## 🚀 Project Impact
+
+TaskFlow simulates real-world project management tools like Trello and Asana.  
+It demonstrates full-stack development skills, authentication flow, API design, and modern UI architecture.
 
 ## Directory Structure
 
@@ -98,10 +136,11 @@ The frontend should start on port `5173`. Open your browser and navigate to `htt
 
 ## API Endpoints
 
-### 🔐 Auth Routes
-- `POST /api/auth/register` - Registers a new user. Expects JSON body `{ name, email, password }`.
-- `POST /api/auth/login` - Authenticates user. Expects JSON body `{ email, password }`.
-- `GET /api/auth/me` - (Protected) Returns the current authorized user profile.
+## 👨‍💻 Author
+
+- GitHub: https://github.com/umeshfull-stackdeveloper  
+- Portfolio:[ https://portfolio-umesh1.vercel.app/
+- Live Project: https://task-management-system-umesh1.vercel.app/
 
 ### 📝 Task Routes
 - `GET /api/tasks` - (Protected) Returns tasks belonging to the current user. Supports query parameters:
